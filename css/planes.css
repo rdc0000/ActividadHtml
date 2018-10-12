@@ -1,0 +1,175 @@
+
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1100px;
+	min-width: 780px;
+	
+}
+#logo{
+	margin: 2px 20%;
+}
+section{
+	background: #DFDFDF;
+}
+.barra{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 3000;
+}
+.barra ul{
+	list-style:none;
+}
+.ul a{	
+	display: block;
+}
+.barra #ul li a i:hover{
+	font-size: 45px;
+}
+#fab{
+
+	font-size: 24px;
+	color: white;
+	background-color:  #4f5ee0;
+	padding: 15px 20px;
+	border-radius: 100%;
+	margin: 5px;
+}
+#twi{
+	font-size: 30px;
+	background-color: #3394d4;
+	color: white;
+	padding: 12px;
+	border-radius: 100%;
+	margin: 5px;
+}
+#goo{
+	font-size: 20px;
+	background-color: #dd363b;
+	color: white;
+	padding: 18px 16px;
+	border-radius: 100%;
+	margin: 5px;
+}
+#pin{
+	font-size: 30px;
+	background-color:  #d7171d;
+	color: white;
+	padding: 12px 15px;
+	border-radius: 100%;
+	margin: 5px;
+}
+#gma{
+	font-size: 30px;
+	background-color:#c4c4c7 ;
+	color: #d7171d;
+	padding: 15px;
+	border-radius: 100%;
+	margin: 5px;
+}
+h2{
+	display: inline;
+	padding:  0 60px;
+	font-size: 20px;
+	color: red;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+	font-size: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+.letter{
+	
+	margin-left: 38%;
+}
+.todo{
+	background:#635352;
+	padding: 30px;
+}
+.uno{
+	position: absolute;
+	font-size: 55px;
+	margin: -15px;
+	font-family: 'Heebo', sans-serif;
+	padding: 0 10px;
+	border-right: 2px solid white;
+
+}
+.dos{	
+	position: static;
+	color: white;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+#p{
+	color: #23D30F;
+}
+#s{
+	color: #FD6323;
+}
+#t{
+	color: #1FD28D;
+}
+td{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 1px solid black;
+}
+.gla{
+	text-align: left;
+}
+strong{
+	font-size: 25px;
+}
+.btn{
+	width: 100px;
+	height: 18px;
+	background: #F51277;
+	color: white;
+	padding: 5px 10px;
+	margin: 20px 0;
+	margin-left: 63%;
+}
+.btn:hover{
+	width: 140px;
+	height: 50px;
+	padding: 15px 20px;
+	background-color: #6CE4EF;
+	color: #317DAD;
+	transition-duration: 1000ms;
+}
+footer{
+	background: black;
+	color: white;
+	padding: 8%;
+	border-top: 5px solid #F51277;
+}
+@media only screen and (max-width: 1024px){
+	.barra{
+	position: fixed;
+	top: 0;
+	left: 86%;
+	z-index: 3000;
+    }
+	section{
+		background: #85929E;
+	}
+	h1, h2{
+		color: white;
+	}
+	.todo{
+		background: black;
+	}
+	.btn{
+		
+		background: black;
+		color:white;
+	}
+	footer{
+		background: white;
+		color: black;
+		border-top: 5px solid black;
+	}
+}

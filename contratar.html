@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contratar</title>
+	<link rel="stylesheet" href="css/contratar.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+	<header id="header">		
+		    <a href="index.html"><div id="logo"><img src="img/logo-bc.png" alt="logo"></a></div>		
+	</header>
+	<div class="barra">
+	    <ul id="ul">
+		    <li><a href="https://www.facebook.com/"><i id="fab" class="fab fa-facebook-f "></i></a></li>
+		    <li><a href="https://twitter.com/?lang=es"><i id="twi" class="fab fa-twitter"></i></a></li>
+		    <li><a href="https://www.google.com.mx/"><i id="goo" class="fab fa-google-plus-g"></i></a></li>
+		    <li><a href="https://co.pinterest.com/"><i id="pin" class="fab fa-pinterest-p"></i></a></li>
+		    <li><a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"><i id="gma" class="far fa-envelope-open"></i></a></li>
+	    </ul>
+	</div>
+	<section>
+		
+		<div class="container">
+		    <h1>Contrate su plan en Big Cloud <a href="planes.html">ver planes</a></h1>
+		    <fieldset class="fiel">
+			     <legend>1. Elija su plan</legend>
+			     <ul>
+				     <li><STRONG>Plan</STRONG></li>
+				     <li>
+				         <select name="sitio" id="sitio">
+				         <option value=>Escoja su plan de la lista</option>
+				         <option value="">Gratuito</option>
+				         <option value="">Premium</option>
+				         <option value="">Profesional</option>
+			         </li>
+			     </ul>
+			     </select><br>
+			     <br><label><strong>Plan de facturación</strong></label>		
+				     <input type="radio" name="Anual" id="Anual" value="Anual" checked="checked">
+				     <label for="Anual">Anual</label>				
+				     <input type="radio" name="Anual" id="Trimestral" value="Trimestral">
+                     <label for="Trimestral">Trimestral</label>
+				     <input type="radio" name="Anual" id="mensual" value="mensual">
+				     <label for="mensual">Mensual</label>
+		     </fieldset>	
+		<form>
+		     <fieldset class="fiel" >
+		     	<p>* campos obligatorios</p>
+                 <legend>2. Cree una cuenta de administrador</legend>
+                 <ul>
+                     <li>
+			            <label for="name"><strong>Nombre *</strong></label></li>
+			            <li><input type="text" name="name" id="name" value="" required/>
+		             </li>
+		             <li>
+			            <label  for="password"><strong>Contraseña *</strong></label></li>
+			            <li><input type="password" name="clave1" id="password" min="8" value="" required/> La contraseña debe tener un mínimo de 8 caracteres</li>
+		             <li>
+			            <label  for="password"><strong>Repetir contraseña *</strong></label></li>
+			            <li><input type="password" name="clave2" id="password" min="8" value="" required/>
+		             </li>
+	             </ul>
+             </fieldset>
+		     <fieldset class="fiel" >
+		     	<p>* campos obligatorios</p>
+		         <legend>3. Datos del administrador</legend>
+                 <ul>
+                    <li>                 
+             			<label for="name" ><strong>Nombre *</strong></label></li>
+             			<li><input type="text" name="name" id="name" value="" required=""/>
+             		</li>
+             		<li>
+             			<label for="surname"><strong>Apellido *</strong></label></li>
+             			<li><input type="surname" name="name" id="surname" value="" required/>
+             		</li>
+             		<li>
+             			<label  for="phone"><strong>Telefono *</strong></label></li>
+             			<li><input type="phone" name="name" id="phone" value="" required/>
+             		</li>
+             		<li>
+             			<label for="email"><strong>Correo electronico *</strong></label></li>
+             			<li><input type="email" name="name" id="email" value="" required/>
+             		</li>
+             		<li>
+             			<label for="date"><strong>Fecha nacimiento</strong></label></li>
+             			<li><input type="date" name="name" id="date" value=""/>
+             		</li>
+             		<li>
+             			<label  for="empresa"><strong>Nombre de la empresa</strong></label></li>
+             			<li><input type="empresa" name="password" id="empresa" value=""/>
+             		</li>
+             		<li><label  for="password"><strong>Tamaño de la empresa</strong></label></li>
+             	 <select name="sitio" id="sitio">
+             				<option value=>Escoja un elemento de la lista</option>
+             				<option value="Ensitio">Menos de 50 trabajadores</option>
+	             			<option value="Telefonica">50 a 99</option>
+             				<option value="otros">100 a 499</option>
+             				<option value="otros">más de 500</option>
+             	 </select>
+               	 </ul>
+             </fieldset>
+                 <ul class="ul">
+	                <li>
+		                <input type="checkbox" name="acepto" id="acepto" value="acepto" checked="checked">
+   	                    <label class="label" for="acepto">Acepto poltica de protección de datos de Big Cloud</label>
+	                </li>
+	                <li>
+		               <input id="btn" type="submit" value="Contratar"/>
+		               
+	                </li>
+                 </ul>
+        </form>	
+	    </div>
+	</section>
+	<footer>
+		&copy; Actividad realizada por Ruben Dario Castiblanco Campos 2018 <br>
+		Fotografias de portada <a href="https://unsplash.com/">Unsplash</a>  <br>
+		<a href=" http://creativecommons.org/licenses/by-sa/4.0/"><img src="img/creative-commons.png" alt=""></a>
+	</footer>
+</body> 
+</html>
